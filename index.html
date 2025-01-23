@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <title>Lista de Tarefas</title>
+</head>
+<header>
+    <h1>Lista de Tarefas</h1>
+</header>
+<body>
+    <h2>Insira suas Tarefas</h2>
+    <form>
+        <label for="startDate">Inicio da Atividade:</label>
+        <input type="date" id="startDate" required>
+        <input type="text" id="taskName" required placeholder="Digite suas Tarefas">
+        <button type="submit" id="addButton">Adicionar +</button>
+    </form>
+    <ul id="taskList">
+        <li></li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
